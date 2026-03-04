@@ -143,7 +143,7 @@ def get_expectation_value(instrument, magnitude, colour, separation, trilegal_fo
     trilegal field of view (in sq. arcsec)
     """
     trilegal_fov = float(trilegal_fov)
-    BASE_DIR = Path(__file__).resolve().parent
+    BASE_DIR = Path(__file__).resolve().parent.parent
 
     if instrument == 'NIRCam':
         # JADES data
