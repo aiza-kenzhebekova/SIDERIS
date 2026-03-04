@@ -4,7 +4,7 @@ MPhys Project
 Aiza Kenzhebekova 
 02/03/2026
 """
-import background_object_prob_calc_functions as bckgprob 
+from functions import background_object_prob_calc_functions as bckgprob 
 import argparse
 
 def main():
