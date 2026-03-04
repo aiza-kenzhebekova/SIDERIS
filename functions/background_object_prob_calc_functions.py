@@ -243,7 +243,7 @@ def calculate_probability(input_file, trilegal_los=[3.3, 50], trilegal_fov=25920
         time.sleep(180)
 
         # save the data
-        outfilename = f'data_files/trilegal_dat/{instrument}_trilegal_{trilegal_los[0]}_{trilegal_los[1]}_fov{trilegal_fov}.dat'
+        outfilename = f'data_files/trilegal_data/{instrument}_trilegal_{trilegal_los[0]}_{trilegal_los[1]}_fov{trilegal_fov}.dat'
         download_trilegal_model(url, outfilename=outfilename)
 
     # w/o trilegal
