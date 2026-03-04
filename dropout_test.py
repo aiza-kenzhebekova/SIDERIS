@@ -36,7 +36,7 @@ def main():
     instrument = sys.argv[2]
     outputfilename = sys.argv[3]
 
-    BASE_DIR = Path(__file__).resolve().parent.parent
+    BASE_DIR = Path(__file__).resolve().parent
 
     linder_file = os.path.join(BASE_DIR/'data_files'/ 'BEX_evol_mags_-2_MH_0.00.dat')
 
