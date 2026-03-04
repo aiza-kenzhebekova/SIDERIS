@@ -28,7 +28,7 @@ def main():
     """
 
     # check for correct inputs:
-    if len(sys.argv) != 3:
+    if len(sys.argv) != 4:
         print("Usage: python drop_out_test.py <directory> <instrument> <outputfilename>")
         sys.exit(1)
 
