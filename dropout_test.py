@@ -9,7 +9,7 @@ import sys
 import numpy as np
 from matplotlib import pyplot as plt
 import pandas as pd
-import dropout_test_functions as drptst 
+from functions import dropout_test_functions as drptst 
 from astropy.table import Table
 import os
 from pathlib import Path
