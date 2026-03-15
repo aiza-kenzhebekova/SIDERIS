@@ -55,3 +55,6 @@ This work is based [in part] on observations made with the NASA/ESA/CSA James We
 Aiza Kenzhebekova
 
 Email: a.kenzhebekova@sms.ed.ac.uk
+
+[![astropy](http://img.shields.io/badge/powered%20by-AstroPy-orange.svg?style=flat)](http://www.astropy.org/)
+
