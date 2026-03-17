@@ -7,12 +7,12 @@ SIDERIS calculates the probability of finding a background object with specified
 ## Getting Started
 
 ### Running the calculator
-To run the background probabiliy calculator:
+To run the background probability calculator:
 ```
 python background_object_prob_calc.py input_miri_example.dat
 ```
 
-or if you would like to run TRILEGAL (only recomended if you have blue colour candidates):
+or if you would like to run TRILEGAL (only recommended if you have blue colour candidates):
 ```
 python background_object_prob_calc.py input_miri_example.dat --trilegal RA Dec FOV
 ```
@@ -33,7 +33,7 @@ This is a .dat file where the header is either "F444W F200W-F444W Separation" (f
 python dropout_test.py 'fits file directory' Instrument output_file_name.dat
 ```
 
-You can download the relavant fits files at:
+You can download the relevant fits files at:
 * https://archive.stsci.edu/hlsp/jades (JADES goods-s field: F200W, F356W, F444W)
 * https://archive.stsci.edu/hlsp/smiles (SMILES goods-s field: F560W, F1500W, F2100W)
 
