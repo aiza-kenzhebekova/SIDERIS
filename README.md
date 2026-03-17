@@ -4,6 +4,18 @@ Statistical Identification of Directly-imaged Exoplanet candidates, Reviewed to 
 ## Description
 SIDERIS calculates the probability of finding a background object with specified colour and magnitude within a separation from a target star.
 
+## Installation
+Navigate to your working directory, then clone this repository:
+```
+git clone https://github.com/aiza-kenzhebekova/SIDERIS
+```
+
+Then install the package's dependencies:
+```
+cd SIDERIS
+pip install -r requirements.txt
+```
+
 ## Getting Started
 
 ### Running the calculator
