@@ -4,15 +4,27 @@ Statistical Identification of Directly-imaged Exoplanet candidates, Reviewed to 
 ## Description
 SIDERIS calculates the probability of finding a background object with specified colour and magnitude within a separation from a target star.
 
+## Installation
+Navigate to your working directory, then clone this repository:
+```
+git clone https://github.com/aiza-kenzhebekova/SIDERIS
+```
+
+Then install the package's dependencies:
+```
+cd SIDERIS
+pip install -r requirements.txt
+```
+
 ## Getting Started
 
 ### Running the calculator
-To run the background probabiliy calculator:
+To run the background probability calculator:
 ```
 python background_object_prob_calc.py input_miri_example.dat
 ```
 
-or if you would like to run TRILEGAL (only recomended if you have blue colour candidates):
+or if you would like to run TRILEGAL (only recommended if you have blue colour candidates):
 ```
 python background_object_prob_calc.py input_miri_example.dat --trilegal RA Dec FOV
 ```
@@ -23,7 +35,7 @@ python background_object_prob_calc.py input_miri_example.dat --trilegal RA Dec F
 #### Input files
 
 This is a .dat file where the header is either "F444W F200W-F444W Separation" (for NIRCam) or "F1500W F1500W-F2100W Separation" (for MIRI) 
-* see input_miri_example.dat/input_nircam_example.dat for the format
+* see input_miri_example.dat or input_nircam_example.dat for the format
 * separation is in arcseconds
 
 ### Running the dropout test
@@ -33,7 +45,7 @@ This is a .dat file where the header is either "F444W F200W-F444W Separation" (f
 python dropout_test.py 'fits file directory' Instrument output_file_name.dat
 ```
 
-You can download the relavant fits files at:
+You can download the relevant fits files at:
 * https://archive.stsci.edu/hlsp/jades (JADES goods-s field: F200W, F356W, F444W)
 * https://archive.stsci.edu/hlsp/smiles (SMILES goods-s field: F560W, F1500W, F2100W)
 
